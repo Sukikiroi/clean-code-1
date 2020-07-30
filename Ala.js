@@ -9,9 +9,10 @@ import Card from '@material-ui/core/Card';
 import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/InputBase';
 import Button from '@material-ui/core/Button';
-import {marks1, marks2,marks3} from './marks.js';
-import {Sliders, OUIButton,NONButton,Textfiledcss,card} from './cssFunvtion.js';
-import {FirstComponent, SecondeComponent,ValueLabelComponent,ValueLabelComponent2,PrettoSlider} from './Allfunction.js';
+import {marks1, marks2,marks3} from './marks';
+import {Sliders, OUIButton,NONButton,Textfiledcss,card} from './cssFunvtion';
+
+import {FirstComponent, SecondeComponent,ValueLabelComponent,ValueLabelComponent2,PrettoSlider} from './Allfunction';
 export const useStyles = makeStyles((theme) => ({
   root: {
     width: 300 + theme.spacing(3) * 2,
